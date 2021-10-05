@@ -1,0 +1,29 @@
+{
+  "name": "clouds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha app/tests/",
+    "test:dev": "nodemon --exec node_modules/mocha/bin/mocha app/tests/",
+    "start": "nodemon app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serhio77777/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serhio77777/test/issues"
+  },
+  "homepage": "https://github.com/Serhio77777/test#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.9",
+    "nodemon": "^2.0.13"
+  }
+}
